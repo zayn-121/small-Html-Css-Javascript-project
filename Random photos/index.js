@@ -2,7 +2,6 @@ const imageContainer = document.querySelector(".image-container");
 const btn = document.querySelector(".btn");
 
 btn.addEventListener("click", () => {
-    console.log("clicked");
     addNewImages();
 })
 let imageNum = 10;
