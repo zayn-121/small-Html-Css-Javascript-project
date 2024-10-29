@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: .4s;
 }
 .input{
     visibility: hidden;
@@ -35,10 +36,11 @@ body{
     animation: toggleOff .4s linear  forwards;
 }
 .input:checked + .label{
-    background: salmon;
+    background: white;
 }
 .input:checked + .label .circle{
     animation: toggleOn .4s linear  forwards;
+    background: black;
 }
 @keyframes toggleOn {
     0%{
